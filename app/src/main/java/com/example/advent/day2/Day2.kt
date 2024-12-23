@@ -1,4 +1,4 @@
-package day2
+package com.example.advent.day2
 import com.example.advent.day1.readFile
 
 fun main() {
