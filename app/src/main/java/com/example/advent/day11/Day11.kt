@@ -54,8 +54,8 @@ private fun calculateStones(): Long {
     return result
 }
 
-private fun replaceStonesRecursion(blinks: Long, number: Long): Long { // recursion and memoization
-    if (blinks == 0L) { // base case
+private fun replaceStonesRecursion(blinks: Int, number: Long): Long { // recursion and memoization
+    if (blinks == 0) { // base case
         return 1
     }
     val key = "$number at $blinks"
